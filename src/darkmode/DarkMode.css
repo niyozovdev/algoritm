@@ -1,0 +1,40 @@
+.darkMode_box {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    transition: all 0.3s ease-in-out;
+  }
+
+  img{
+    width: 37px;
+  }
+  
+  .darkMode_box:active {
+    transform: scale(1.2);
+  }
+
+  @media only screen and (max-width:992px){
+    .darkMode_box {
+      position: absolute;
+      top: 1.4rem;
+      right: 5.3rem;
+      transition: all 0.5s ease-in-out;
+    }
+  }
+  
+  @media only screen and (max-width:786px){
+    .darkMode_box{
+      img{
+        width: 40px;
+      }
+    }
+  }
+
+  @media only screen and (max-width:576px){
+    .darkMode_box{
+      img{
+        margin-top: 0.35rem;
+        width: 36px;
+      }
+    }
+  }

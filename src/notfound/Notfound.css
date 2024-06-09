@@ -1,0 +1,21 @@
+.notFound {
+  height: 100vh;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+.notFound .container .text-found {
+  color: #d9cccc;
+  font-weight: 900;
+  font-size: 5.4rem;
+}
+.notFound .container .text-found2 {
+  color: #d9cccc;
+  font-weight: 900;
+  font-size: 2.3rem;
+}
+.notFound .container .row .col-lg-6 .img-fluid {
+  width: 100%;
+}/*# sourceMappingURL=Notfound.css.map */

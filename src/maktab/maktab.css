@@ -1,0 +1,184 @@
+.container .haqida {
+  color: #fff;
+  padding: 4rem 0 2rem;
+  margin-top: 2rem;
+}
+.container .maktabRasm {
+  background-color: var(--modal__back);
+  color: var(--natija__color);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px, rgba(0, 0, 0, 0.33) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.container .maktabRasm .col-12,
+.container .maktabRasm .col-md-6 {
+  padding: 1.5rem 2rem;
+}
+.container .maktabRasm .col-12 .imgBox,
+.container .maktabRasm .col-md-6 .imgBox {
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px, rgba(0, 0, 0, 0.33) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.container .maktabRasm .col-12 .imgBox img,
+.container .maktabRasm .col-md-6 .imgBox img {
+  transition: all 0.5s;
+  width: 100%;
+  height: 27rem;
+  border-radius: 1rem;
+}
+.container .maktabRasm .col-12 .imgBox img:hover,
+.container .maktabRasm .col-md-6 .imgBox img:hover {
+  transform: scale(1.03);
+}
+.container .maktabRasm .col-12 .maktabHeading,
+.container .maktabRasm .col-md-6 .maktabHeading {
+  font-size: 2.1rem;
+}
+.container .maktabRasm .col-12 .maktabParagraph,
+.container .maktabRasm .col-md-6 .maktabParagraph {
+  font-size: 1.3rem;
+}
+.container .row {
+  box-sizing: border-box;
+}
+
+.footer {
+  margin-top: 5rem;
+}
+
+.vazifalar {
+  margin-top: 7rem;
+}
+.vazifalar .maktabRasm .h1 {
+  top: -4rem;
+  left: 2rem;
+}
+.vazifalar .maktabRasm .col-12,
+.vazifalar .maktabRasm .col-md-6 {
+  padding: 2rem 3rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .container .maktabRasm .col-12,
+  .container .maktabRasm .col-md-6 {
+    padding: 2rem 1.5rem;
+  }
+  .container .maktabRasm .col-12 img,
+  .container .maktabRasm .col-md-6 img {
+    height: 23rem;
+  }
+  .container .maktabRasm .col-12 .maktabHeading,
+  .container .maktabRasm .col-md-6 .maktabHeading {
+    font-size: 1.5rem;
+  }
+  .container .maktabRasm .col-12 .maktabParagraph,
+  .container .maktabRasm .col-md-6 .maktabParagraph {
+    font-size: 1rem;
+  }
+  .vazifalar {
+    margin-top: 6rem;
+  }
+  .vazifalar .col-12,
+  .vazifalar .col-md-6 {
+    padding: 2rem 3rem;
+  }
+}
+@media only screen and (max-width: 786px) {
+  .container .haqida {
+    margin-top: 2rem;
+  }
+  .container .maktabRasm .col-12,
+  .container .maktabRasm .col-md-6 {
+    padding-bottom: 0;
+    margin: 0;
+  }
+  .container .maktabRasm .col-12 .maktabHeading,
+  .container .maktabRasm .col-md-6 .maktabHeading {
+    font-size: 2rem;
+  }
+  .container .maktabRasm .col-12 .maktabParagraph,
+  .container .maktabRasm .col-md-6 .maktabParagraph {
+    font-size: 1.15rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .vazifalar .maktabRasm .row .order1 {
+    order: 1;
+  }
+  .vazifalar .maktabRasm .row .order2 {
+    order: 2;
+  }
+  .vazifalar .maktabRasm .row .order3 {
+    order: 4;
+  }
+  .vazifalar .maktabRasm .row .order4 {
+    order: 3;
+  }
+  .vazifalar .maktabRasm .row .order5 {
+    order: 5;
+  }
+  .vazifalar .maktabRasm .row .order6 {
+    order: 6;
+  }
+  .vazifalar .maktabRasm .row .order7 {
+    order: 8;
+  }
+  .vazifalar .maktabRasm .row .order8 {
+    order: 7;
+  }
+  .vazifalar .maktabRasm .row .order9 {
+    order: 9;
+  }
+  .vazifalar .maktabRasm .row .order10 {
+    order: 10;
+  }
+  .vazifalar .maktabRasm .row .order11 {
+    order: 12;
+    margin-bottom: 1rem;
+  }
+  .vazifalar .maktabRasm .row .order12 {
+    order: 11;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container .haqida {
+    margin-top: 3rem;
+  }
+  .container .maktabRasm .col-12 .maktabHeading,
+  .container .maktabRasm .col-md-6 .maktabHeading {
+    font-size: 2rem;
+  }
+  .container .maktabRasm .col-12 .maktabParagraph,
+  .container .maktabRasm .col-md-6 .maktabParagraph {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container .haqida {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+  }
+  .container .maktabRasm .col-12,
+  .container .maktabRasm .col-md-6 {
+    padding: 1rem 2rem 0;
+  }
+  .container .maktabRasm .col-12 img,
+  .container .maktabRasm .col-md-6 img {
+    height: 300px;
+    padding-bottom: 0;
+  }
+  .container .maktabRasm .col-12 .maktabHeading,
+  .container .maktabRasm .col-md-6 .maktabHeading {
+    font-size: 1.5rem;
+  }
+  .container .maktabRasm .col-12 .maktabParagraph,
+  .container .maktabRasm .col-md-6 .maktabParagraph {
+    font-size: 0.8rem;
+    line-height: 16px;
+  }
+  .vazifalar {
+    margin-top: 5rem;
+  }
+}
+
+/*# sourceMappingURL=Maktab.css.map */

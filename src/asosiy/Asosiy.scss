@@ -1,0 +1,596 @@
+body{
+  background-color: var(--body);
+}
+
+.container {
+  width: 100vw;
+  overflow: clip;
+  .asosiyHeader {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .asosiy__p {
+      font-size: 2.6rem;
+      font-weight: bold;
+      font-family: "DM Serif Display", serif;
+      font-weight: 600;
+      font-style: normal;
+      color: #adaab7;
+    }
+    .asosiy__qabul {
+      color: #67656f;
+      font-size: 5rem;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: "DM Serif Display", serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    .asosiyBtn {
+      background-color: transparent;
+      width: 21%;
+      transition: all 0.3s;
+      &:hover {
+        background-color: #d95218;
+      }
+    }
+  }
+  .containerMiddleBox {
+    position: absolute;
+    bottom: -6.5rem;
+    background: linear-gradient(var(--middle__back));
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+    .row {
+      padding: 3rem 1.5rem;
+      .rowText {
+        font-size: 2.5rem;
+      }
+      .rowBtn {
+        button {
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  .containerNatijalar {
+    .containernatijaBox {
+      margin-top: 10rem;
+      .iframeBox {
+        overflow: hidden;
+        border-radius: 1rem;
+        .iframe {
+          border-radius: 1rem;
+          height: 23.4rem;
+          transition: all 0.5s;
+        }
+      }
+      .natijaParagraph {
+        background-color: var(--modal__back);
+        padding: 2rem;
+        color: var(--natija__color);
+        transition: all 0.5s;
+        border-radius: 1rem;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        &:hover{
+          box-shadow: var(--boxShadow) 0px 5px 15px;
+        }
+        .derector {
+          margin-top: 0.7rem;
+          img {
+            width: 80px;
+            border-radius: 50%;
+          }
+          .col-lg-10 {
+            padding-left: 1.9rem;
+          }
+          .derectorParagraph {
+            color: rgb(78, 89, 252);
+            font-weight: 700;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// AsosiySection
+.asosiySection {
+  .containerDastur {
+    background: linear-gradient(var(--dastur__back));
+    padding-bottom: 10rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .containerDasturBox {
+      background-color: transparent;
+      color: #fff;
+      padding: 3rem 2rem;
+      .col-12, .col-lg-4{
+        transition: all 1s;
+        .rowItem {
+          margin: auto;
+          height: 320px;
+          border-radius: 1rem;
+          cursor: pointer;
+          overflow: hidden;
+
+          img{
+            transition: all 0.6s ;
+            &:hover{
+              transform: scale(1.04);
+            }
+          }
+        }
+        .sinflar{
+          transition: all 0.5s;
+          background-color: rgba(206, 150, 150, 0.91);
+          border-radius: .5rem;
+          padding: 0.2rem .7rem;
+          position: absolute;
+          display: none;
+          color: #1f1309;
+          font-weight: 550;
+          font-size: 1.3rem;
+        }
+        &:hover{
+          .sinflar{
+            display: block;
+            bottom: 0.2rem;
+            left: 1.5rem;
+          }
+        }
+      }
+    }
+
+    // MiddleBox
+
+    .containerMiddleBox {
+      bottom: -6.5rem;
+      background: linear-gradient(var(--middle__back));
+      color: #fff;
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+      .row {
+        padding: 3rem 1.5rem;
+        .rowText {
+          font-size: 2.5rem;
+        }
+        .rowBtn {
+          button {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+// UqishJarayoni
+
+.uqishJarayoni{
+  .textJarayon{
+    color: var(--sharoit__color);
+  }
+  padding: 10rem 0 6rem;
+}
+
+// footer
+footer{
+  background-color: var(--middle__back);
+  padding: 2rem 1rem;
+  height: 100%;
+  .social,.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    li{
+      list-style: none;
+      font-weight: 600;
+      color: var(--color__footer);
+      a{
+        text-decoration: none;
+        color: var(--color__footer);
+        &:hover{
+          opacity: 80%;
+        }
+      }
+    }
+  }
+  
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    .asosiyHeader {
+      .asosiy__p {
+        font-size: 2.3rem;
+      }
+      .asosiy__qabul {
+        font-size: 4rem;
+      }
+      .asosiyBtn {
+        width: 30%;
+      }
+    }
+    .containerMiddleBox {
+      position: absolute;
+      bottom: -6.5rem;
+      background-color: var(--middle__back);
+      color: #fff;
+      border-radius: 1rem;
+      .row {
+        padding: 1rem;
+        .rowText {
+          font-size: 2.5rem;
+        }
+        .rowBtn {
+          button {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .containerNatijalar {
+      .iframeBox {
+        height: 24rem;
+      }
+      .natijaParagraph {
+        margin: 1rem 0;
+        .derector {
+          margin-top: 0.7rem;
+          img {
+            width: 100px;
+            border-radius: 50%;
+          }
+          .col-lg-10 {
+            padding-left: 1.9rem;
+          }
+        }
+      }
+    }
+  }
+  .asosiySection {
+    .containerDastur {
+      padding-bottom: 10rem;
+      margin-top: 7rem;
+      .containerDasturBox {
+        .row {
+          flex-direction: column;
+          gap: 1.1rem;
+          align-items: center;
+          .rowItem{
+            width: 70%;
+          }
+        }
+      }
+      .containerMiddleBox {
+        position: absolute;
+        bottom: -6.8rem;
+        background-color: var(--middle__back);
+        color: #fff;
+        border-radius: 1rem;
+        .row {
+          padding: 1rem;
+          .rowText {
+            font-size: 2.5rem;
+          }
+          .rowBtn {
+            button {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .container {
+    .asosiyHeader {
+      .asosiy__p {
+        font-size: 2.2rem;
+      }
+      .asosiy__qabul {
+        font-size: 3.1rem;
+      }
+      .asosiyBtn {
+        width: 40%;
+      }
+    }
+    .containerMiddleBox {
+      position: absolute;
+      bottom: -7.8rem;
+      background-color: var(--middle__back);
+      color: #fff;
+      border-radius: 1rem;
+      margin-left: -12px;
+      .row {
+        padding: 1rem;
+        .rowText {
+          font-size: 2.3rem;
+        }
+        .rowBtn {
+          button {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .containerNatijalar {
+      .iframeBox {
+        height: 24rem;
+      }
+      .natijaParagraph {
+        margin: 1rem 0;
+        padding: 1rem;
+        font-size: 1.3rem;
+        .derectorParagraph {
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+  .asosiySection{
+    .containerDastur{
+      padding-bottom: 9rem;
+      margin-top: 5rem;
+      .containerDasturBox{
+        .row{
+          .rowItem{
+
+          }
+        }
+      }
+      .containerMiddleBox {
+        position: absolute;
+        background-color: var(--middle__back);
+        color: #fff;
+        border-radius: 1rem;
+        margin-left: -12px;
+        .row {
+          padding: 1rem;
+          .rowText {
+            font-size: 2.3rem;
+          }
+          .rowBtn {
+            button {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    .asosiyHeader {
+      .asosiy__p {
+        font-size: 2rem;
+      }
+      .asosiy__qabul {
+        font-size: 2.9rem;
+      }
+      .asosiyBtn {
+        width: 50%;
+      }
+    }
+    .containerMiddleBox {
+      position: absolute;
+      bottom: -8.8rem;
+      background-color: var(--middle__back);
+      color: #fff;
+      border-radius: 1rem;
+      margin: 1rem 0;
+      .row {
+        padding:0;
+        .rowText {
+          font-size: 2rem;
+        }
+        .rowBtn {
+          button {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .containerNatijalar {
+      .containernatijaBox {
+        margin-top: 10rem;
+        .iframeBox {
+          .iframe {
+            border-radius: 1rem;
+            height: 23.4rem;
+            box-shadow: -1px 1px 12px 4px var(--boxShadow);
+            -webkit-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+            -moz-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          }
+        }
+        .natijaParagraph {
+          background-color: var(--boxShadow__back);
+          padding: 2rem;
+          color: var(--natija__color);
+          border-radius: 1rem;
+          font-size: 1.2rem;
+          font-weight: 600;
+          box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          -webkit-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          -moz-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          .derector {
+            margin-top: 0.7rem;
+            img {
+              width: 80px;
+              border-radius: 50%;
+            }
+            .col-lg-10 {
+              padding-left: 1.9rem;
+            }
+            .derectorParagraph {
+              color: rgb(78, 89, 252);
+              font-weight: 700;
+              a {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .asosiySection{
+    .containerDastur{
+      padding-bottom: 8rem;
+      margin-top: 5rem;
+      .containerDasturBox{
+        .row{
+          .rowItem{
+            width: 100%;
+          }
+        }
+      }
+      .containerMiddleBox {
+        margin: 0 1rem;
+        position: absolute;
+        bottom: -6.8rem;
+        background-color: var(--middle__back);
+        color: #fff;
+        border-radius: 1rem;
+        .row {
+          .rowText {
+            font-size: 1.7rem;
+          }
+          .rowBtn {
+            button {
+              font-size: 1.3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // UqishJarayoni
+.uqishJarayoni{
+  padding: 10rem 0 3rem;
+}
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    .asosiyHeader {
+      .asosiyBtn {
+        width: 55%;
+      }
+    }
+    .containerMiddleBox {
+      position: absolute;
+      bottom: -7.8rem;
+      background-color: var(--middle__back);
+      color: #fff;
+      border-radius: 1rem;
+      .row {
+        padding: 0;
+        .rowText {
+          font-size: 1.5rem;
+        }
+        .rowBtn {
+          button {
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+    .containerNatijalar {
+      .containernatijaBox {
+        margin-top: 10rem;
+        .iframeBox {
+          .iframe {
+            border-radius: 1rem;
+            height: 23.4rem;
+            box-shadow: -1px 1px 12px 4px var(--boxShadow);
+            -webkit-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+            -moz-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          }
+        }
+        .natijaParagraph {
+          background-color: var(--boxShadow__back);
+          padding: 2rem;
+          color: var(--natija__color);
+          border-radius: 1rem;
+          font-size: 1.1rem;
+          font-weight: 600;
+          box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          -webkit-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          -moz-box-shadow: -1px 1px 12px 4px var(--boxShadow);
+          .derector {
+            margin-top: 0.7rem;
+            img {
+              width: 80px;
+              border-radius: 50%;
+            }
+            .col-lg-10 {
+              padding-left: 1.9rem;
+            }
+            .derectorParagraph {
+              color: rgb(78, 89, 252);
+              font-weight: 700;
+              font-size: 1.1rem;
+              a {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .asosiySection {
+    .containerDastur {
+      padding-bottom: 6rem;
+      margin-top: 4rem;
+      .containerDasturBox {
+        .h4 {
+          font-size: 1.1rem;
+        }
+      }
+      .containerMiddleBox {
+        position: absolute;
+        bottom: -5.8rem;
+        background-color: var(--middle__back);
+        color: #fff;
+        border-radius: 1rem;
+        .row {
+          padding: .7rem;
+          .rowText {
+            font-size: 1.5rem;
+          }
+          .rowBtn {
+            button {
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+    // UqishJarayoni
+
+.uqishJarayoni{
+  padding: 10rem 0 2rem;
+}
+}

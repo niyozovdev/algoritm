@@ -1,0 +1,205 @@
+{
+    "jarayon": [
+      {
+        "id":"1",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/dastur.png",
+        "heading": "Maxsus o‘quv dasturlari",
+        "paragraph": "Maxsus ta'lim dasturlari asosida o'qitish hamda shu dasturlarga mos o'quv adabiyotlari"
+      },
+      {
+        "id":"2",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/ustoz.png",
+        "heading": "Tajribali ustozlar",
+        "paragraph": "Bolalarga ta'lim berishda 10+ yillik ish tajribasiga ega malakali ustozlar jamoasi"
+  
+      },
+      {
+        "id":"3",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/togarak.png",
+        "heading": "Zamonaviy to'garaklar",
+        "paragraph": "O'quvchilarimizning ham aqlan, ham jismonan rivojlanishlari uchun maxsus to'garaklar"
+      },
+      {
+        "id":"4",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/psixolog.png",
+        "heading": "Psixolog xizmati",
+        "paragraph": "Farzandlarimiz ruhiy rivojlanishi normal kechayotganini nazorat qilish uchun oylik psixolog xizmati"
+      },
+      {
+        "id":"5",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/tarbiya.png",
+        "heading": "Avval tarbiya, keyin ta'lim.",
+        "paragraph": "Sharqona qadriyatlarga asoslangan tarbiya darslarimiz orqali farzandingizning yuksak ahloqli bo'lib"
+      },
+      {
+        "id":"6",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/04/labaratoriya.png",
+        "heading": "Zamonaviy laboratoriyalar",
+        "paragraph": "Aniq va tabiiy fanlarni oson o'zlashtirish uchun barcha zarur anjomlar bilan jihozlangan"
+      }
+    ],
+    "fanlar": [
+      {
+        "id":"",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon07.png",
+        "heading": "Matematika"
+      },
+      {
+        "id":"2",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon05.png",
+        "heading": "Ingliz tili"
+      },
+      {
+        "id":"3",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon04.png",
+        "heading": "IELTS"
+        },
+      {
+        "id":"4",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon03.png",
+        "heading": "Rus tili"
+          },
+      {
+        "id":"5",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon01.png",
+        "heading": "Tarbiya"
+          },
+      {
+        "id":"6",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon06.png",
+        "heading": "SAT"
+          },
+      {
+        "id":"7",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon02.png",
+        "heading": "Arab tili"
+          },
+      {
+        "id":"6",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/darsicon08.png",
+        "heading": "O‘zbek tili"
+          }
+    ],
+    "jamoa": [
+      {
+        "id":"1",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers01.jpg",
+        "name": "Turayev Boxir",
+        "otm": "Diplomatiya Universiteti",
+        "tajriba": "11 yil",
+        "fani": "Matematika",
+        "uquvchilari": "600+",
+        "natija": "82%"
+      },
+      {
+        "id":"2",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers02.jpg",
+        "name": "Munisa Bobonazarova",
+        "otm": "Jahon Tillari Universiteti",
+        "tajriba": "6 yil",
+        "fani": "Ingliz tili",
+        "uquvchilari": "600+",
+        "natija": "96%"
+      },
+      {
+        "id":"3",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers03.jpg",
+        "name": "Abdixashimov Bobomurod",
+        "otm": " Farmatsevtika instituti",
+        "tajriba": "5 yil",
+        "fani": "Kimiyo",
+        "uquvchilari": "400+",
+        "natija": "85%"
+      },
+      {
+        "id":"4",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers04.jpg",
+        "name": "Malikova Shaxnoza",
+        "otm": "Pedagogika Universiteti",
+        "tajriba": "5 yil",
+        "fani": "Rus tili va adabiyot",
+        "uquvchilari": "400+",
+        "natija": "93%"
+      },
+      {
+        "id":"5",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers05.jpg",
+        "name": "Adhamjon Mahmudov",
+        "otm": "Milliy Universitet",
+        "tajriba": "4 yil",
+        "fani": "FIzika",
+        "uquvchilari": "400+",
+        "natija": "95%"
+      },
+      {
+        "id":"6",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers06.jpg",
+        "name": "Nazira Rashidova",
+        "otm": "O‘zbek tili va adabiyot Universiteti",
+        "tajriba": "5 yil",
+        "fani": "Ona tili va adabiyot",
+        "uquvchilari": "300+",
+        "natija": "91%"
+      },
+      {
+        "id":"7",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers07.jpg",
+        "name": "Shahbos Yunusov",
+        "otm": "Texnika Universiteti",
+        "tajriba": "8 yil",
+        "fani": "Matematika",
+        "uquvchilari": "600+",
+        "natija": "82%"
+      },
+      {
+        "id":"1",
+        "icon": "https://rgnschool.uz/wp-content/uploads/2023/05/teachers08.jpg",
+        "name": "Doniyor Teshayev",
+        "otm": "Milliy Universitet",
+        "tajriba": "6 yil",
+        "fani": "Ona tili va adabiyot",
+        "uquvchilari": "500+",
+        "natija": "97%"
+      }
+    ],
+    "kurslar": [
+      {
+        "id":"1",
+        "img": "https://frankfurt.apollo.olxcdn.com/v1/files/5erfs1wgjsuo3-UZ/image",
+        "headings": "Matematika darslari",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      },
+      {
+        "id":"2",
+        "img": "https://nortwest.edu.au/assets/uploads/2024/01/Academic-English.png",
+        "headings": "Ingliz tili",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      },
+      {
+        "id":"3",
+        "img": "https://i.ss.lv/gallery/3/496/123760/courses-education-coaching-help-for-studens-3-24751843.800.jpg",
+        "headings": "Fizika darslari",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      },
+      {
+        "id":"4",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaQfj1kSydQVa85gp0GvUZTMNTxtQL4ckdeQ&s",
+        "headings": "Ona tili darslari",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      },
+      {
+        "id":"5",
+        "img": "https://dairynews.today/upload/iblock/ee2/ipzflv2x36vaodzu6i3z2bbi33inewn2/%D1%83%D1%87%D0%B5%D0%BD%D1%8B%D0%B52.jpg",
+        "headings": "Kimiyo darslari",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      },
+      {
+        "id":"6",
+        "img": "https://catherineasquithgallery.com/uploads/posts/2023-02/thumbs/1676586307_catherineasquithgallery-com-p-fon-geografiya-zelenii-109.jpg",
+        "headings": "Geografiya darslari",
+        "paragraph": "9 oy davomida malakali o'qituvchi tomonidan darslar olib boriladi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in dictum purus, vel iaculis eros. Morbi eget odio neque. Nunc viverra volutpat congue. Maecenas cursus leo velit, auctor tristique turpis molestie non. Donec vestibulum blandit urna eu finibus. Sed quam lorem, vehicula eu lobortis sit amet, porttitor posuere nisi. Ut tempus, nunc non volutpat cursus, ante ipsum rutrum tortor, ut rhoncus nulla purus vel magna. Ut consectetur velit non ligula suscipit, eget vulputate nunc bibendum."
+      }
+    ]
+  }
+
+  

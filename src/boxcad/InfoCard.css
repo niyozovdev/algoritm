@@ -1,0 +1,22 @@
+.box-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.box-wrapper .card {
+    padding: 10px 20px;
+    border: 2px solid gray;
+    width: 700px;
+    text-align: center;
+}
+.box-wrapper .card button {
+    padding: 20px 40px;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.box-wrapper .card button:hover {
+    background-color: salmon;
+    color: white;
+}

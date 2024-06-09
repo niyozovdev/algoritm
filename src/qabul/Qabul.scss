@@ -1,0 +1,59 @@
+.container {
+    .haqida {
+      color: #fff;
+      padding: 4rem 0 2rem;
+      margin-top: 2rem;
+    }
+    .qabulBox {
+      transition: all 0.3s;
+      background-color: var(--qabul__bg);
+      color: var(--qabul__color);
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+      &:hover{
+        box-shadow: var(--boxShadow) 0px 5px 15px;
+      }
+      .col-lg-8{
+        padding: 4.5rem 4rem;
+      }
+    }
+    .row{
+      box-sizing: border-box;
+    }
+
+    .joylashuv{
+      margin-top: 35rem;
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+  }
+
+  @media only screen and (max-width:786px){
+    .container{
+      .haqida{
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  @media only screen and (max-width:576px){
+    .container{
+        .haqida{
+            font-size: 1.7rem;
+            line-height:1.5rem;
+        }
+        .containerMiddleBox{
+          .row{
+            padding: 2rem;
+          }
+        }
+    }
+  }
+
+  @media only screen and (max-width:400px){
+    .container{
+        .haqida{
+            font-size: 1.2rem;
+        }
+    }
+  }

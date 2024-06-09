@@ -1,0 +1,156 @@
+:root {
+  --body: transparent;
+  --nav__bg: #ffffff08;
+  --navli__color: #15141b;
+  --navli__color-hover: #67656f;
+  --nav__after: #15141b;
+  --nav__show: #4facc3;
+  --media992__back: #3e3b3bd0;
+  --fanlar__color:#15141b;
+
+  /* ModalDark */
+  --modal__back: #ffffff;
+  --modal_color: #67656f;
+  --modal__after: transparent;
+  --close__button: #ffffff;
+  --modal__placeholder:#67656f;
+
+  /* Asosiy */
+  /*--middle__color: #ffffff08;*/
+  /*--natija__color:#000;*/
+  /*--boxShadow__back:#ffffff;*/
+  --boxShadow: rgba(37, 35, 35, 0.71);
+  /*--dastur__back:#79758a;*/
+  --middle__back: #523216, #5b4c3b;
+
+  /*containerDastur*/
+  --dastur__back:#802727,#362110, #2A1C0C;
+
+  /*Maktab*/
+  --sharoit__color:#15141b;
+
+    /* Jarayon */
+    --jarayonda__color:#15141b;
+    --jarayon__back:#e9dfdf;
+  --jarayon__boxShadow: rgba(239, 7, 7, 0.25) 0 14px 28px, rgba(234, 214, 214, 0.22) 0 10px 10px;
+
+    /*Qabul*/
+  --qabul__bg:#ffffff;
+  --qabul__color:#15141b;
+
+    /* Footer */
+    --footer__back:#802727,#362110, #2A1C0C;
+
+/*  card*/
+  --card__back:#e9dfdf;
+  --card__color:#000000;
+  --card__hover: rgba(168, 151, 151, 0.47);
+}
+
+[theme="dark"] {
+  --body: rgba(0, 0, 0, 0.4);
+
+  /* ModalDark */
+  --modal__back: #15141b;
+  --modal_color: #eae9ef;
+  --modal__after: #a19db0;
+  --media992__back: #15141b;
+  --close__button: #ffffff;
+  --modalBody__back:#c1b6b6;
+  --modal__placeholder:#ffffff;
+
+  /* Asosiy */
+  /*--middle__color: #ffffff;*/
+  --natija__color:#eae9ef;
+  /*--boxShadow__back:#15141b;*/
+  --boxShadow: rgba(45, 204, 27, 0.93);
+  /*--dastur__back:#212029;*/
+  --middle__back: #564436, rgb(21, 20, 27);
+
+    /*containerDastur*/
+  --dastur__back:#15141b, #2f1c0c, rgba(68, 42, 21, 0.91);
+
+    /*Maktab*/
+  --sharoit__color:#ffffff;
+
+    /* Jarayon */
+  --jarayonda__color:#ffffff;
+    --jarayon__back:#15141b;
+  --jarayon__boxShadow:rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+
+  /*Qabul*/
+  --qabul__bg:#15141b;
+  --qabul__color:#ffffff;
+
+    /* Footer */
+  --footer__back:#15141b, #1f1309, #150f04;
+
+    /* FAnlar */
+    --fanlar__color:#0065AD;
+
+  /*  card*/
+  --card__back:#15141b;
+  --card__color:#ffffff;
+  --card__hover: rgba(232, 223, 223, 0.58);
+}
+
+
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parenBox{
+  transition: all 0.4s;
+  background-color: var(--white);
+  background: url('https://img.freepik.com/free-photo/medium-shot-kid-doing-homework_23-2149610746.jpg?size=626&ext=jpg&ga=GA1.1.1165741156.1715736022&semt=ais_user');
+  background-attachment: fixed;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+  display: grid;
+  /*width: 100vw;*/
+  height: 100vh;
+  .btn{
+    transition: all .4s;
+  }
+  .btn:hover{
+    transform: scale(1.03);
+    opacity: 80%;
+  }
+  .btn:active{
+    transform: scale(1.01);
+    opacity: 95%;
+  }
+  .more_extensions{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 30px;
+    right: 10px;
+    border-radius: 10px;
+    background-color: var(--more_extensions);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:992px){
+  .parenBox{
+    align-items: normal;
+  }
+  .more_extensions{
+    display: none !important;
+  }
+}
+

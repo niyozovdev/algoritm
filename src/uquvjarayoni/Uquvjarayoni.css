@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+}
+.container .row .jarayondaItem {
+  background-color: var(--jarayon__back);
+  transition: all 0.5s;
+  cursor: pointer;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-radius: 1rem;
+  box-shadow: var(--jarayon__boxShadow);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container .row .jarayondaItem img {
+  width: 100px;
+  height: auto;
+}
+.container .row .jarayondaItem .paragraph1,
+.container .row .jarayondaItem .paragraph2 {
+  color: var(--jarayonda__color);
+}
+.container .row .jarayondaItem .paragraph1 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1em;
+}
+.container .row .jarayondaItem .paragraph2 {
+  font-size: 1.11rem;
+}
+.container .row .jarayondaItem:hover {
+  box-shadow: var(--boxShadow) 0px 5px 15px;
+}
+.container .row .jarayondaItem .btn {
+  color: var(--jarayonda__color);
+}
+.container .birinchiQuti {
+  display: block;
+}
+.container .activeBir {
+  display: none;
+}
+.container .ikkinchiQuti {
+  display: none;
+}
+.container .active {
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  .container .row .jarayondaItem .paragraph1 {
+    font-size: 1.5rem;
+  }
+  .container .row .jarayondaItem .paragraph2 {
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container .row .jarayondaItem .paragraph2 {
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container .row .jarayondaItem .paragraph1 {
+    font-size: 1.7rem;
+  }
+  .container .row .jarayondaItem .paragraph2 {
+    font-size: 1.5rem;
+    line-height: 1.1rem;
+  }
+  .container .row .jarayondaItem .btn {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container .row .jarayondaItem .paragraph2 {
+    line-height: 1.3rem;
+  }
+}
+
+/*# sourceMappingURL=Uquvjarayoni.css.map */

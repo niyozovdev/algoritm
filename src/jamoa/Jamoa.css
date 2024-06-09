@@ -1,0 +1,55 @@
+.parenBox .container .kelajak {
+  margin-top: 7rem;
+  font-weight: 600;
+}
+.parenBox .container .izoh {
+  background-color: var(--jarayon__back);
+  color: var(--modal_color);
+  padding: 1.7rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+.parenBox .container .rowBoxSecond {
+  transition: all 0.5s;
+  background-color: var(--card__back);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.parenBox .container .rowBoxSecond .row {
+  justify-content: center;
+}
+.parenBox .container .rowBoxSecond .row .card {
+  background-color: transparent;
+  border-radius: 1rem;
+}
+.parenBox .container .rowBoxSecond .row .card .card-img-top {
+  overflow: hidden;
+  width: 100%;
+  height: 380px;
+}
+.parenBox .container .rowBoxSecond .row .card .card-img-top img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.parenBox .container .rowBoxSecond .row .card .card-img-top img:hover {
+  transform: scale(1.04);
+  opacity: 88%;
+}
+.parenBox .container .rowBoxSecond .row .card .cardText {
+  color: var(--card__color);
+}
+.parenBox .container .jamoaJoylashuv {
+  margin-top: 13rem;
+  border-radius: 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .parenBox .container .rowBoxSecond .row .card .card-img-top {
+    height: 270px;
+  }
+}
+
+/*# sourceMappingURL=Jamoa.css.map */

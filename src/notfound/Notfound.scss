@@ -1,0 +1,27 @@
+.notFound{
+    height: 100vh;
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      background-color: #000000;
+    .container{
+      .text-found{
+        color: #d9cccc;
+        font-weight: 900;
+        font-size: 5.4rem;
+      }
+      .text-found2{
+        color: #d9cccc;
+        font-weight: 900;
+        font-size: 2.3rem;
+      }
+        .row{
+            .col-lg-6{
+                .img-fluid{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

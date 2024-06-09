@@ -1,0 +1,206 @@
+.container {
+  .haqida {
+    color: #fff;
+    padding: 4rem 0 2rem;
+    margin-top: 2rem;
+  }
+  .maktabRasm {
+    background-color: var(--modal__back);
+    color: var(--natija__color);
+    .textSharoit{
+      color: ;
+    }
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px, rgba(0, 0, 0, 0.33) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    .col-12,
+    .col-md-6 {
+      padding: 1.5rem 2rem;
+      .imgBox {
+        box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 2px, rgba(0, 0, 0, 0.33) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        overflow: hidden;
+        border-radius: 1rem;
+        img {
+          transition: all 0.5s;
+          width: 100%;
+          height: 27rem;
+          border-radius: 1rem;
+          &:hover {
+            transform: scale(1.03);
+          }
+        }
+      }
+      .maktabHeading {
+        font-size: 2.1rem;
+      }
+      .maktabParagraph {
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .row{
+    box-sizing: border-box;
+  }
+}
+.footer{
+  margin-top: 5rem;
+}
+
+.vazifalar {
+  margin-top: 7rem;
+  .maktabRasm{
+    .h1{
+        top: -4rem;
+        left: 2rem;
+    }
+        .col-12,
+        .col-md-6 {
+        padding: 2rem 3rem;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  .container {
+    .maktabRasm {
+      .col-12,
+      .col-md-6 {
+        img{
+          height: 23rem;
+        }
+        padding: 2rem 1.5rem;
+        .maktabHeading {
+          font-size: 1.5rem;
+        }
+        .maktabParagraph {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .vazifalar {
+    margin-top: 6rem;
+    .col-12,
+    .col-md-6 {
+      padding: 2rem 3rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .container {
+    .haqida {
+      margin-top: 2rem;
+    }
+    .maktabRasm {
+      .col-12,
+      .col-md-6 {
+        padding-bottom: 0;
+        margin: 0;
+        .maktabHeading {
+          font-size: 2rem;
+        }
+        .maktabParagraph {
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .vazifalar{
+    .maktabRasm{
+      .row{
+        .order1{
+          order: 1;
+        }
+        .order2{
+          order: 2;
+        }
+        .order3{
+          order: 4;
+        }
+        .order4{
+          order: 3;
+        }
+        .order5{
+          order: 5;
+        }
+        .order6{
+          order: 6;
+        }
+        .order7{
+          order: 8;
+        }
+        .order8{
+          order: 7;
+        }
+        .order9{
+          order: 9;
+        }
+        .order10{
+          order: 10;
+        }
+        .order11{
+          order: 12;
+          margin-bottom: 1rem;
+        }
+        .order12{
+          order: 11;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    .haqida {
+      margin-top: 3rem;
+    }
+    .maktabRasm {
+      .col-12,
+      .col-md-6 {
+        .maktabHeading {
+          font-size: 2rem;
+        }
+        .maktabParagraph {
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    .haqida {
+      margin-top: 1rem;
+      font-size: 1.6rem;
+    }
+    .maktabRasm {
+      .col-12,
+      .col-md-6 {
+        padding: 1rem 2rem 0;
+        img {
+          height: 300px;
+          padding-bottom: 0;
+        }
+        .maktabHeading {
+          font-size: 1.5rem;
+        }
+        .maktabParagraph {
+          font-size: 0.8rem;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+
+  .vazifalar {
+    margin-top: 5rem;
+  }
+}
+ 
